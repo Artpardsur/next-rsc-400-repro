@@ -1,0 +1,22 @@
+{
+  "name": "next-rsc-400-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction: malformed Next-Router-State-Tree returns 500 instead of 400 on dynamically-rendered routes (Next.js 16.4.1)",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "next": "16.4.1",
+    "react": "19.3.0-canary-dc9aed36-20261027",
+    "react-dom": "19.3.0-canary-dc9aed36-20261027"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
